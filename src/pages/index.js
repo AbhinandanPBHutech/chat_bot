@@ -69,7 +69,7 @@ export default function Home() {
               >
                 <div
                   className={`${
-                    message.type === "user" ? "bg-orange-500" : "bg-gray-800"
+                    message.type === "user" ? "bg-blue-500" : "bg-gray-800"
                   } rounded-lg p-4 text-white max-w-sm`}
                 >
                   {message.message}
