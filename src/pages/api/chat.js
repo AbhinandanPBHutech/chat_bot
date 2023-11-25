@@ -10,11 +10,9 @@ export default async function handler(req, res) {
     try {
       const { body } = req;
       const url = "https://api.openai.com/v1/chat/completions";
-      // const token = "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";
-      const token = "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";
       const headers = {
         "Content-type": "application/json",
-        Authorization: `Bearer ${token}`,
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       };
 
       const response = await axios.post(url, body, { headers: headers });
