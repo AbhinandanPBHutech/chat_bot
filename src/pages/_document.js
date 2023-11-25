@@ -5,8 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <title>HTS CHATBOT</title>{" "}
-        <meta name="description" content="HTS AI Chatbot " />
-        <meta name="og:description" content="HTS AI Chatbot " />
+        <meta name="description" content="HTS AI Chatbot" />
+        <meta name="og:description" content="HTS AI Chatbot" />
         <meta
           property="og:image"
           content={
